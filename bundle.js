@@ -18860,7 +18860,7 @@ class PlaygoundCell extends React.Component {
     const { card, focused, onClick } = this.props;
     return React.createElement(
       FadeProps,
-      null,
+      { animationLength: 100 },
       React.createElement(Card, card)
     );
   }
@@ -20395,7 +20395,7 @@ exports = module.exports = __webpack_require__(16)(false);
 
 
 // module
-exports.push([module.i, "body {\n  background: #ebeff2;\n  margin: 0;\n  padding: 0;\n}\n\n.debug {\n  display: none;\n  position: fixed;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  width: 300px;\n  background: rgba(0,0,0,0.2);\n  overflow-y: scroll;\n  font-size: 10px;\n  font-family: monospace;\n}\n\n\n.Playground * {\n  /*border: 1px solid #f0f;*/\n}\n\n.Playground {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  height: 100vh;\n  width: 100vw;\n  align-items: center;\n  flex-direction: column;\n  flex-wrap: nowrap\n}\n\n.Playground .Playground_Row {\n  display: flex;\n  flex-direction: row;\n}\n\n.Playground .Playground_Cell {\n  display: flex;\n}\n\n\n\n.Playground_Cell .Card {\n  height: 30vh;\n  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n  transition: all 0.3s cubic-bezier(.25,.8,.25,1);\n}\n\n.Playground_Cell-focused .Card {\n  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\n  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\n}\n\n.Playground_Cell .Card svg {\n  display: block;\n  height: 100%;\n}", ""]);
+exports.push([module.i, "body {\n  background: #ebeff2;\n  margin: 0;\n  padding: 0;\n}\n\n.debug {\n  display: none;\n  /*display: block;*/\n  position: fixed;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  width: 300px;\n  background: rgba(0,0,0,0.2);\n  overflow-y: scroll;\n  font-size: 10px;\n  font-family: monospace;\n}\n\n\n.Playground * {\n  /*border: 1px solid #f0f;*/\n}\n\n.Playground {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  height: 100vh;\n  width: 100vw;\n  align-items: center;\n  flex-direction: column;\n  flex-wrap: nowrap\n}\n\n.Playground .Playground_Row {\n  display: flex;\n  flex-direction: row;\n}\n\n.Playground .Playground_Cell {\n  display: flex;\n}\n\n\n\n.Playground_Cell .Card {\n  height: 30vh;\n  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n  transition: all 0.3s cubic-bezier(.25,.8,.25,1);\n}\n\n.Playground_Cell-focused .Card {\n  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\n  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\n}\n\n.Playground_Cell .Card svg {\n  display: block;\n  height: 100%;\n}", ""]);
 
 // exports
 
